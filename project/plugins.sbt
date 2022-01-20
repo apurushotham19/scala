@@ -32,3 +32,7 @@ Global / concurrentRestrictions := Seq(
 addSbtPlugin("de.heikoseeberger" % "sbt-header" % "5.6.0")
 
 addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.4.3")
+
+addSbtPlugin(“org.scoverage” % “sbt-scoverage” % “1.6.1”)
+
+addSbtPlugin(“com.github.mwz” % “sbt-sonar” % “2.1.1”)
